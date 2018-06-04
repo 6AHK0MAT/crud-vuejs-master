@@ -25,12 +25,12 @@
     },
     {
       "id": 2,
-      "name": "21st Amendment Brewery Cafe",
+      "name": "21st Amendment Brewery Cafe54234",
       "address1": "563 Second Street",
       "address2": "",
       "city": "San Francisco",
       "state": "California",
-      "code": "94107",
+      "code": 94107,
       "country": "United States",
       "phone": "1-415-369-0900",
       "website": "http://www.21st-amendment.com/",
@@ -99,12 +99,12 @@
       "address2": "",
       "city": "Dinant",
       "state": "Namur",
-      "code": "",
+      "code": 3453543,
       "country": "Belgium",
       "phone": "",
-      "website": "",
+      "website": "выавыаыв",
       "filepath": "",
-      "descript": "",
+      "descript": "впвкнпвап",
       "add_user": 0,
       "last_mod": "2010-07-22 20:00:20",
       "geocode": {
@@ -2040,12 +2040,12 @@
       "address2": "",
       "city": "Belfast",
       "state": "Maine",
-      "code": "4915",
+      "code": 4915,
       "country": "United States",
       "phone": "207-338-4216",
       "website": "http://www.belfastbaybrewing.com/",
       "filepath": "",
-      "descript": "",
+      "descript": 123123213,
       "add_user": 0,
       "last_mod": "2010-07-22 20:00:20",
       "geocode": {
@@ -2177,6 +2177,19 @@
       "descript": 123,
       "website": "",
       "id": 103
+    },
+    {
+      "name": 234234,
+      "code": 2424234,
+      "descript": 2423342424,
+      "id": 104
+    },
+    {
+      "name": 1,
+      "code": 1,
+      "descript": 1,
+      "id": 105,
+      "website": 111
     }
   ],
   "beers": [

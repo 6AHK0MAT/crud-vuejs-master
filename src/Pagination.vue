@@ -1,7 +1,7 @@
 <template>
     <nav class="pagination">
-          <a class="button" v-show="showPreviousButton" @click="goPreviousPage()">Anterior</a>
-          <a class="button" v-show="showNextButton" @click="goNextPage()">Próximo</a>
+          <a class="button" v-show="showPreviousButton" @click="goPreviousPage()">Предыдущий</a>
+          <a class="button" v-show="showNextButton" @click="goNextPage()">Следующий</a>
           <ul>
             <li>
               <a class="button" v-show="showPreviousButton" @click="goFirstPage()">1</a>

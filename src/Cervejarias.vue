@@ -1,19 +1,19 @@
 <template>
-  <a class="fixo button is-large is-danger is-loading" v-show="isLoading">Loading</a>
+  <a class="fixo button is-large is-danger is-loading" v-show="isLoading">Загрузка</a>
   <div class="container">
     <h1 class="title">{{title}}</h1>
     <div class="columns">
       <div class="column is-5">
         <p class="control has-addons">
-          <input class="input is-expanded" type="text" placeholder="Procure pelo nome" v-model="search">
-          <a class="button is-info" @click.prevent="searchBreweries">Search</a>
+          <input class="input is-expanded" type="text" placeholder="Поиск по названию" v-model="search">
+          <a class="button is-info" @click.prevent="searchBreweries">Поиск</a>
         </p>
       </div>
       <div class="column is-6">
          
       </div>
       <div class="column is-1">
-        <a class="button is-info" @click.prevent="newBreweries">Novo</a>
+        <a class="button is-info" @click.prevent="newBreweries">Новая запись</a>
       </div>
 
     </div>
@@ -22,11 +22,11 @@
         <table class="table is-narrow is-bordered">
           <thead>
             <tr>
-              <th>Nome</th>
-              <th>Cidade</th>
-              <th>Telefone</th>
-              <th>Mais</th>
-              <th>Ações</th>
+              <th>Название</th>
+              <th>Город</th>
+              <th>Телефон</th>
+              <th>Дополнительно</th>
+              <th>Действия</th>
             </tr>
         </thead>
         <tbody>
@@ -63,40 +63,40 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Cervejaria: {{selected.name}}</p>
+      <p class="modal-card-title">Фирма: {{selected.name}}</p>
       <button class="delete" @click.prevent="showModal=false"></button>
     </header>
     <section class="modal-card-body">
 
     <div class="columns">
       <div class="column">
-        <label class="label">Nome</label>
+        <label class="label">Название</label>
           <p class="control">
             <input class="input" type="text" placeholder="Text input" v-model="selected.name">
           </p>
       </div>
       <div class="column">
-         <label class="label">Código</label>
+         <label class="label">Индекс</label>
     <p class="control">
       <input class="input" type="text" placeholder="Código" v-model="selected.code">
     </p>
       </div>
       </div>
 
-      <label class="label">Descrição</label>
+      <label class="label">Описание продукта</label>
       <p class="control">
         <textarea class="textarea" placeholder="Textarea" v-model="selected.descript"></textarea>
       </p>
       
-   <label class="label">Website</label>
+   <label class="label">Веб-сайт</label>
     <p class="control">
       <input class="input" type="text" placeholder="Text input" v-model="selected.website">
     </p>
 
     </section>
     <footer class="modal-card-foot">
-      <a class="button is-primary" @click.prevent="saveBrewery">Salvar</a>
-      <a class="button" @click.prevent="showModal=false">Cancelar</a>
+      <a class="button is-primary" @click.prevent="saveBrewery">Подтвердить</a>
+      <a class="button" @click.prevent="showModal=false">Отмена</a>
     </footer>
   </div>
 </div>
