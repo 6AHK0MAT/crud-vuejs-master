@@ -2,12 +2,12 @@
   "breweries": [
     {
       "id": 1,
-      "name": "(512) Brewing Company",
+      "name": "Brewing Company",
       "address1": "407 Radam, F200",
       "address2": "",
       "city": "Austin",
       "state": "Texas",
-      "code": "78745",
+      "code": 78745,
       "country": "United States",
       "phone": "512.707.2337",
       "website": "http://512brewing.com/",
@@ -67,29 +67,6 @@
         "latitude": 50.7668,
         "longitude": 4.3081,
         "accuracy": "RANGE_INTERPOLATED"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Aass Brewery",
-      "address1": "Ole Steensgt. 10 Postboks 1530",
-      "address2": "",
-      "city": "Drammen",
-      "state": "",
-      "code": "",
-      "country": "Norway",
-      "phone": "47-32-26-60-00",
-      "website": "http://www.aass.no",
-      "filepath": "",
-      "descript": "Aass Brewery was established in 1834 and is the oldest brewery in Norway today. It is located in the city of Drammen, approximately 25 miles south of our capital, Oslo. You will spot it at the banks of the Drammen River at the very same place as it has been since 1834. The annual production of beer is aprox. 10 mill liter (85 000 barrels), and together with the production of 18 mill liters of soft drinks and mineralwater it gives employment to approximately 150 people.  You may wonder how we got our name ? It was a young fellow with the name Poul Lauritz Aass that bought the brewery in 1860. Since then it has been in the same family, and is today run by the 4th generation of Aass. (By the way - A real Norwegian viking would pronounce it Ouse)  The brewery is proud of its history. To us the quality of what we produce has always been and always will be the main issue. In 1516, Duke Wilhelm of Bavaria established a law admitting only malted barley, hops yeast, and water as ingredients in the production of beer. The law is known as the purity law and Aass Brewery is still loyal to Duke Wilhelm of Bavaria. In Norway the brewery is known for outstanding quality and large number of different beer types.",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20",
-      "geocode": {
-        "id": 4,
-        "breweryId": 4,
-        "latitude": 59.7451,
-        "longitude": 10.2135,
-        "accuracy": "APPROXIMATE"
       }
     },
     {
@@ -2505,81 +2482,6 @@
       "upc": 0,
       "filepath": "",
       "descript": "",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20"
-    },
-    {
-      "id": 2666,
-      "breweryId": 4,
-      "name": "Classic Special Brew",
-      "cat_id": 8,
-      "style_id": 95,
-      "abv": 0,
-      "ibu": 0,
-      "srm": 0,
-      "upc": 0,
-      "filepath": "",
-      "descript": "",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20"
-    },
-    {
-      "id": 3997,
-      "breweryId": 4,
-      "name": "JuleÃ¸l",
-      "cat_id": 3,
-      "style_id": 29,
-      "abv": 5.9,
-      "ibu": 0,
-      "srm": 0,
-      "upc": 0,
-      "filepath": "",
-      "descript": "The Norwegian JuleÃ¸l can be traced back more that 1000 years. The \"Gulatinglov\", one of the first Norwegian laws written in the 9th century, has a chapter on brewing beer for the midwinter celebration in January. The festivities were held to celebrate the Norse Gods; Odin, FrÃ¸y and Njord as well as the \"return\" of the sun.\r\nFurthermore, the tradition was adopted by the Vikings that brought Christianity to the country between 1000 and 1100. They moved the tradition to December in connection with the birth of Jesus. \r\nIn those days a farmer that did not set aside the best crop to produce the beer could lose his house to the king and the church. The law has been changed, but we promise you that we still use the very best of malt, yeast, hops, and pure Norwegian water to produce our Christmas beer.\r\n\r\nAass JuleÃ¸l has won most of the Norwegian JuleÃ¸l taste test conducted over time. For those of you that know what \"lutefisk\" is, Aass JuleÃ¸l is the perfect choice of beverage to this traditional Norwegian dish.",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20"
-    },
-    {
-      "id": 3998,
-      "breweryId": 4,
-      "name": "Bock Beer",
-      "cat_id": 7,
-      "style_id": 90,
-      "abv": 5.9,
-      "ibu": 0,
-      "srm": 0,
-      "upc": 0,
-      "filepath": "",
-      "descript": "The Aass Bock is a dark \"lager\" also produced in accordance with the \"Purity law\". \r\n\r\nThe malted barely is produced in the Scandinavian countries. It is a combination of bayer-, color- and caramel malt. \r\n\r\nWe use the very best of hops from the Hallertau area in Germany, and the water is pure Norwegian mountain water. \r\n\r\nThe Aass Bock is largered at cool temperatures, and it is allowed to mature for as long as 6 months before bottling. \r\n\r\nThe beer is sold in a caracteristic nice-looking green bottle containing 11.2 fl. oz or 330 ml.",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20"
-    },
-    {
-      "id": 3999,
-      "breweryId": 4,
-      "name": "Genuine Pilsner",
-      "cat_id": 7,
-      "style_id": 77,
-      "abv": 5.5,
-      "ibu": 0,
-      "srm": 0,
-      "upc": 0,
-      "filepath": "",
-      "descript": "The Aass Genuine Pilsner is a premium \"lager\" produced in accordance with the \"Purity law\". The malted barely is a pilsnermalt produced in the Sandinavian countries. We use the very best of hops known under the name as Sazer and Hallertau, and the liquid is pure Norwegian mountain water.\r\n\r\nThe pilsner is largered at cool temperatures, and it is allowed to mature for as long at 3 months before bottling. \r\n\r\nThe beer is sold in a caracteristic nice- looking green bottel containing 11.2 fl. oz or 330 ml.",
-      "add_user": 0,
-      "last_mod": "2010-07-22 20:00:20"
-    },
-    {
-      "id": 4000,
-      "breweryId": 4,
-      "name": "Gull Classic",
-      "cat_id": 8,
-      "style_id": 95,
-      "abv": 5.5,
-      "ibu": 0,
-      "srm": 0,
-      "upc": 0,
-      "filepath": "",
-      "descript": "\"Aass Classic\" is a classical \"lager\" The beer is slightly darker in color than our Genuine Pilsner. It is of course produced in accordance with the \"Purity law\". \r\n\r\nThe malted barely is produced in the Scadinavian countries. It is a combination of pilsner-, bayer- and caramelmalt. We use the famous Sazer and Hallertau hops, and the water is as pure as the Norwegian nature. \r\n\r\nThe Classic is largered at cool temperatures, and it is allowed to mature for approximately 3 months before bottling. \r\n\r\nThe beer is sold in caracteristic nice looking green bottel containing 11.2 fl. oz or 330 ml.",
       "add_user": 0,
       "last_mod": "2010-07-22 20:00:20"
     },
@@ -9445,5 +9347,5 @@
       "age": 25,
       "id": 0
     }
-    ]
+  ]
 }

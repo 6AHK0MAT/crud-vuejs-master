@@ -72,13 +72,13 @@
       <div class="column">
         <label class="label">Название</label>
           <p class="control">
-            <input class="input" type="text" placeholder="Text input" v-model="selected.name">
+            <input class="input" type="text" placeholder="Название продукта" v-model="selected.name">
           </p>
       </div>
       <div class="column">
          <label class="label">Индекс</label>
     <p class="control">
-      <input class="input" type="text" placeholder="Código" v-model="selected.code">
+      <input class="input" type="text" placeholder="Индекс" v-model="selected.code">
     </p>
       </div>
       </div>
@@ -172,19 +172,19 @@
        },
        removeBrewery(brewery){
         let self = this;
-        swal({  title: "Você tem certeza?",
-                 text: `Deseja apagar "${brewery.name}"`,   
+        swal({  title: "Вы уверены?",
+                 text: `Вы хотите удалить "${brewery.name}"`,
                  type: "warning",   
                  showCancelButton: true,   
                  confirmButtonColor: "#DD6B55",   
-                 cancelButtonText: "Cancelar",
-                 confirmButtonText: "Sim, pode apagar!", 
+                 cancelButtonText: "Отмена",
+                 confirmButtonText: "Да, удалить!",
                  showLoaderOnConfirm: true,  
                  closeOnConfirm: false }, function(){   
                   
                   self.$http.delete(`/breweries/${brewery.id}`).then(
                     result=>{
-                      swal("Cervejaria removida!")
+                      swal("Удаление успешно!")
                       self.loadBreweries()
                     })
         });
